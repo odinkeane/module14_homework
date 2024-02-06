@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(64, 101, 64, 0.971), rgba(27, 48, 27, 0.973)), url(task5-back.jpg);
+    background-size: cover;
+
+}
+
+
+.interface-form{
+    padding: 40px;
+    background-color: rgb(52, 52, 52);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 300px;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 20px;
+    
+}
+
+.result{
+    color: white;
+    width: 800px;
+    height: 650px;
+    background-color:rgb(52, 52, 52);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 50px 100px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0px 0px 20px black;
+    
+}
+
+.result img{
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.interface-form input,
+.interface-form button{
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    outline: none;
+}
+
+.interface-form input:hover,
+.interface-form button:hover{
+    border: 2px solid rgb(52,52,52);
+
+    cursor: pointer;
+}
+.interface-form button{
+    background-color: rgba(64, 101, 64, 0.971);
+    color: white;
+}
+
+
